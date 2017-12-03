@@ -8,5 +8,10 @@ public class ClassA {
 	public void Test1(){
 		System.out.println("In test1");
 	}
+	
+	@Test
+	public void Test2(){
+		System.out.println("In test2");
+	}
 
 }
