@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class ClassA {
 	
-	@Test
+	@Test(priority=1)
 	public void Test1(){
 		System.out.println("In test1");
 	}
